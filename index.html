@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link href="resources/ol-geocoder.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title>Desa Karang Klesem</title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/ol-geocoder.js"></script>
+        <script src="layers/Dissolvedcopy_1.js"></script><script src="layers/Kebun_2.js"></script><script src="layers/PolyTempat_3.js"></script><script src="layers/poly_karkles_4.js"></script><script src="layers/line_karkles_5.js"></script><script src="layers/point_karkles_6.js"></script><script src="layers/TempatIbadah_7.js"></script><script src="layers/FasilitasUmum_8.js"></script><script src="layers/Instansi_9.js"></script><script src="layers/UMKM_10.js"></script><script src="layers/Sungai_11.js"></script><script src="layers/LembagaPendidikan_12.js"></script><script src="layers/Clipped_JalanKecil_13.js"></script>
+        <script src="styles/Dissolvedcopy_1_style.js"></script><script src="styles/Kebun_2_style.js"></script><script src="styles/PolyTempat_3_style.js"></script><script src="styles/poly_karkles_4_style.js"></script><script src="styles/line_karkles_5_style.js"></script><script src="styles/point_karkles_6_style.js"></script><script src="styles/TempatIbadah_7_style.js"></script><script src="styles/FasilitasUmum_8_style.js"></script><script src="styles/Instansi_9_style.js"></script><script src="styles/UMKM_10_style.js"></script><script src="styles/Sungai_11_style.js"></script><script src="styles/LembagaPendidikan_12_style.js"></script><script src="styles/Clipped_JalanKecil_13_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>

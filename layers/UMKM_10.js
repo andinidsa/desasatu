@@ -1,0 +1,1 @@
+var json_UMKM_10 = {"type":"FeatureCollection","name":"UMKM_10","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"1","Nama":"Street Food Karangklesem"},"geometry":{"type":"Point","coordinates":[109.243089803570015,-7.449751241291248]}}]}
